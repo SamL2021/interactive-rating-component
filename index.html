@@ -30,16 +30,16 @@
                 feedback is appreciated to help us improve our offering!
             </p>
             <div class="number-div">
-                <ul>
-                    <li>1</li>
-                    <li>2</li>
-                    <li>3</li>
-                    <li>4</li>
-                    <li>5</li>
+                <ul class="options">
+                    <li class="one" data-number value="1">1</li>
+                    <li class="two" data-number value="2">2</li>
+                    <li class="three" data-number value="3">3</li>
+                    <li class="four" data-number value="4">4</li>
+                    <li class="five" data-number value="5">5</li>
                 </ul>
             </div>
             <div class="btn-div">
-                <button id="submit">Submit</button>
+                <button class="submit">Submit</button>
             </div>
         </div>
         <!-- Rating state end -->
@@ -51,9 +51,11 @@
                 src="css/images/illustration-thank-you.svg"
                 class="thanks-img"
             />
-            <div class="text-box">
-                <p>You selected 5 out of 5</p>
-            </div>
+
+            <p class="text">
+                You selected<span class="choice"> </span>out of 5
+            </p>
+
             <h1>Thank you!</h1>
             <p>
                 We appreciate you taking the time to give a rating. If you ever
@@ -62,16 +64,18 @@
         </div>
         <!-- Thank you state end -->
 
-        <div class="attribution">
-            Challenge by
-            <a
-                href="https://www.frontendmentor.io?ref=challenge"
-                target="_blank"
-                >Frontend Mentor</a
-            >. Coded by
-            <a href="https://samanthalippiatt.com/">Samantha Lippiatt</a> &copy;
-            <span id="year"></span>.
-        </div>
+        <footer>
+            <div class="attribution">
+                Challenge by
+                <a
+                    href="https://www.frontendmentor.io?ref=challenge"
+                    target="_blank"
+                    >Frontend Mentor</a
+                >. Coded by
+                <a href="https://samanthalippiatt.com/">Samantha Lippiatt</a>
+                &copy; <span id="year"></span>.
+            </div>
+        </footer>
     </body>
     <script src="index.js"></script>
 </html>

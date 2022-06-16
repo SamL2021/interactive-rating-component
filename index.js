@@ -5,9 +5,47 @@
 // - Select and submit a number rating
 // - See the "Thank you" card state after submitting a rating
 
-let survey = document.getElementById(".rating");
-let submit = document.getElementById(".submit");
-let thanks = document.getElementById(".thanks");
+const survey = document.querySelector(".container-one");
+const submitbtn = document.querySelector(".submit");
+const one = document.querySelector(".one");
+const two = document.querySelector(".two");
+const three = document.querySelector(".three");
+const four = document.querySelector(".four");
+const five = document.querySelector(".five");
+const thanks = document.querySelector(".container-two");
+const options = document.querySelectorAll("[data-number]");
+const choice = document.querySelector(".choice");
+
+// options.forEach((number) => {
+//     number.addEventListener("click", () => {
+//         // choice.innerText = value;
+//     });
+// });
+
+one.addEventListener("click", () => {
+    choice.innerHTML = " 1 ";
+});
+
+two.addEventListener("click", () => {
+    choice.innerHTML = " 2 ";
+});
+
+three.addEventListener("click", () => {
+    choice.innerHTML = " 3 ";
+});
+
+four.addEventListener("click", () => {
+    choice.innerHTML = " 4 ";
+});
+
+five.addEventListener("click", () => {
+    choice.innerHTML = " 5 ";
+});
+
+submitbtn.addEventListener("click", () => {
+    survey.style.display = "none";
+    thanks.style.display = "block";
+});
 
 // Dynamically show the current year
 const year = (document.getElementById("year").innerHTML =
