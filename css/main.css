@@ -2,9 +2,10 @@ body {
     background-color: #131518;
     font-family: "Overpass", sans-serif;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
     font-size: 15px;
+    height: 100vh;
 }
 
 .star {
@@ -114,6 +115,11 @@ li:hover {
     width: 144px;
     height: 96px;
 }
+
+footer {
+    position: fixed;
+    bottom: 30px;
+}
 .attribution {
     font-size: 11px;
     text-align: center;
@@ -132,7 +138,3 @@ li:hover {
 #thanks {
     display: none;
 }
-
-/* Media Queries */
-/* @media screen and (min-width: 800px) {
-} */

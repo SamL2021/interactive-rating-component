@@ -23,22 +23,27 @@ const choice = document.querySelector(".choice");
 // });
 
 one.addEventListener("click", () => {
+    one.style.backgroundColor = "hsl(25, 97%, 53%)";
     choice.innerHTML = " 1 ";
 });
 
 two.addEventListener("click", () => {
+    two.style.backgroundColor = "hsl(25, 97%, 53%)";
     choice.innerHTML = " 2 ";
 });
 
 three.addEventListener("click", () => {
+    three.style.backgroundColor = "hsl(25, 97%, 53%)";
     choice.innerHTML = " 3 ";
 });
 
 four.addEventListener("click", () => {
+    four.style.backgroundColor = "hsl(25, 97%, 53%)";
     choice.innerHTML = " 4 ";
 });
 
 five.addEventListener("click", () => {
+    five.style.backgroundColor = "hsl(25, 97%, 53%)";
     choice.innerHTML = " 5 ";
 });
 
