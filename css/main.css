@@ -129,6 +129,18 @@ footer {
     color: #04aec4;
 }
 
+/* Media queries */
+
+@media only screen and (max-width: 400px)
+
+    .containers-one {
+    min-height: 416px;
+    max-width: 412px;
+    }
+   
+
+}
+
 /* Display state */
 
 #rating {
@@ -138,3 +150,5 @@ footer {
 #thanks {
     display: none;
 }
+
+
